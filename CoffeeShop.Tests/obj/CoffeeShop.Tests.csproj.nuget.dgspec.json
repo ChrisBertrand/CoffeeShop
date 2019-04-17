@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop.Tests\\CoffeeShop.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop.Tests\\CoffeeShop.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop.Tests\\CoffeeShop.Tests.csproj",
+        "projectName": "CoffeeShop.Tests",
+        "projectPath": "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop.Tests\\CoffeeShop.Tests.csproj",
+        "packagesPath": "C:\\Users\\chris.bertrand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chris.bertrand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj": {
+                "projectPath": "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+        "projectName": "CoffeeShop",
+        "projectPath": "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+        "packagesPath": "C:\\Users\\chris.bertrand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris.bertrand\\source\\repos\\CoffeeShop\\CoffeeShop\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chris.bertrand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
